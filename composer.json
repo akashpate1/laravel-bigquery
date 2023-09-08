@@ -1,0 +1,32 @@
+{
+  "name": "akashpate1/laravel-bigquery",
+  "description": "BigQuery Connector for ",
+  "type": "library",
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "v10.22.0",
+    "monolog/monolog": "3.4.0",
+    "google/cloud-bigquery": "v1.26.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akash\\Laravel\\BigQuery": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Akash\\Laravel\\BigQuery\\LaravelBigQueryServiceProvider"
+      ]
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Akash Pate",
+      "email": "hello@akashpate.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
