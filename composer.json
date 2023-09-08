@@ -10,7 +10,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Akash\\Laravel\\BigQuery": "src/"
+      "Akash\\Laravel\\BigQuery\\": "src/"
     }
   },
   "extra": {
@@ -21,6 +21,7 @@
     }
   },
   "license": "MIT",
+  "homepage": "https://github.com/akashpate1/laravel-bigquery",
   "authors": [
     {
       "name": "Akash Pate",
